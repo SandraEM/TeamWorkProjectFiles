@@ -1,31 +1,60 @@
+
+
 <!DOCTYPE html>
 <html>
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+  
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
 </style>
 </head>
 <body>
 
-<div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    <div class="search-container">
-        <form action="/action_page.php">
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit">Submit</button>
-        </form>
-    </div>
-</div>
 
 <div style="padding-left:16px">
   <h2>Search the Biscuitapedia!</h2>
-  <p>Ifyou know the name of your biscuit, type it in the search box and get ready to learn some cool facts about your chosen treat!</p>
-  <p>Otherwise check out our picture galery below...</p>
+  <p> Check out our awesome picture galery below...</p>
 </div>
 
 <style>
+
 body {
   font-family: Arial;
   margin: 0;
@@ -118,6 +147,8 @@ img {
 </style>
 <body>
 
+
+
 <h2 style="text-align:center">Biscuit Gallery</h2>
 
 <div class="container">
@@ -133,22 +164,22 @@ img {
 
   <div class="mySlides">
     <div class="numbertext">3 / 6</div>
-    <img src="Viennese.jpg" style="width:100%">
+    <img src="CustardCream.jpg" style="width:100%">
   </div>
     
   <div class="mySlides">
     <div class="numbertext">4 / 6</div>
-    <img src="img_lights_wide.jpg" style="width:100%">
+    <img src="Chocalatebiscuitspenguin.biscuits.jpg" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">5 / 6</div>
-    <img src="img_nature_wide.jpg" style="width:100%">
+    <img src="BritanniaBiscuit.jpg" style="width:100%">
   </div>
     
   <div class="mySlides">
     <div class="numbertext">6 / 6</div>
-    <img src="img_snow_wide.jpg" style="width:100%">
+    <img src="Viennese.jpg" style="width:100%">
   </div>
     
   <a class="prev" onclick="plusSlides(-1)">❮</a>
