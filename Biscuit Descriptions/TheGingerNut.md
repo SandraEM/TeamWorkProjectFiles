@@ -7,7 +7,7 @@
 
 <h1>The GingerNut</h1>
 
-<img src="GingerNutBiscuit.ping"
+<img src="GingerNutBiscuit.jpg"
     alt="GingerNut"
     Style=":right;width:300px;height:300px;"/>
 

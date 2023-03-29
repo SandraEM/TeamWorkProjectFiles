@@ -1,60 +1,7 @@
-
-
 <!DOCTYPE html>
 <html>
-
-<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  
-.cursor {
-  cursor: pointer;
-}
-
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-}
-
-</style>
-</head>
-<body>
-
-
-<div style="padding-left:16px">
-  <h2>Search the Biscuitapedia!</h2>
-  <p> Check out our awesome picture galery below...</p>
-</div>
-
-<style>
-
 body {
   font-family: Arial;
   margin: 0;
@@ -83,6 +30,7 @@ img {
   cursor: pointer;
 }
 
+
 .prev,
 .next {
   cursor: pointer;
@@ -99,6 +47,7 @@ img {
   -webkit-user-select: none;
 }
 
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -110,13 +59,6 @@ img {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
 
 .caption-container {
   text-align: center;
@@ -131,14 +73,12 @@ img {
   clear: both;
 }
 
+
 .column {
   float: left;
   width: 16.66%;
 }
 
-.demo {
-  opacity: 0.6;
-}
 
 .active,
 .demo:hover {
@@ -147,39 +87,37 @@ img {
 </style>
 <body>
 
-
-
 <h2 style="text-align:center">Biscuit Gallery</h2>
 
 <div class="container">
   <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-    <img src="ImageBritaniaBiscuit.jpg" style="width:100%">
+    
+    <img src="img_woods_wide.jpg" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-    <img src="ImageViennese.jpg" style="width:100%">
+    
+    <img src="img_5terre_wide.jpg" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-    <img src="ImageCustardCream.jpg" style="width:100%">
+    
+    <img src="img_mountains_wide.jpg" style="width:100%">
   </div>
     
   <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-    <img src="ImageChocalatebiscuitspenguin.biscuits.jpg" style="width:100%">
+  
+    <img src="img_lights_wide.jpg" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-    <img src="ImageBritanniaBiscuit.jpg" style="width:100%">
+   
+    <img src="img_nature_wide.jpg" style="width:100%">
   </div>
     
   <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-    <img src="ImageViennese.jpg" style="width:100%">
+    
+    <img src="img_snow_wide.jpg" style="width:100%">
   </div>
     
   <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -191,22 +129,22 @@ img {
 
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="ImageBritanniaBiscuit.jpg" style="width:100%" onclick="currentSlide(1)" alt="Britannia Biscuits">
+      <img class="demo cursor" src="img_woods.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
     </div>
     <div class="column">
-      <img class="demo cursor" src="ImageViennese.jpg" style="width:100%" onclick="currentSlide(2)" alt="Viennese Biscuit">
+      <img class="demo cursor" src="img_5terre.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
     </div>
     <div class="column">
-      <img class="demo cursor" src="ImageCustardCream.jpg" style="width:100%" onclick="currentSlide(3)" alt="Custard Creams">
+      <img class="demo cursor" src="img_mountains.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
     </div>
     <div class="column">
-      <img class="demo cursor" src="ImageChocalatebiscuitspenguin.biscuits.jpg" style="width:100%" onclick="currentSlide(4)" alt="Chocolate Biscuits">
+      <img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
     </div>
     <div class="column">
-      <img class="demo cursor" src="ImageBritanniaBiscuit.jpg" style="width:100%" onclick="currentSlide(5)" alt="Placeholder">
+      <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
     </div>    
     <div class="column">
-      <img class="demo cursor" src="ImageViennese.jpg" style="width:100%" onclick="currentSlide(6)" alt="Placeholder">
+      <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
     </div>
   </div>
 </div>
@@ -242,8 +180,5 @@ function showSlides(n) {
 }
 </script>
     
-</body>
-</html>
-
 </body>
 </html>
